@@ -1,18 +1,7 @@
-local OwnerKey = "TheThreeDevsIsPro"  -- The correct key
-
--- Simulate the user-provided key with GG.KEY
-GG = {}  -- This simulates the table where you store the user-provided key
-GG.KEY = "TheThreeDevsIsPro"  -- Example user key (replace this with actual user input)
-
--- Check if the provided key matches the OwnerKey
-if GG.KEY == OwnerKey then
-    -- If the key is correct, proceed with whatever you want to run
-    print("Key is correct. Proceeding with execution.")
-    -- Insert your code to proceed here, for example:
-    https://raw.githubusercontent.com/Chsksksnesoskwnnw/TweenFarm/refs/heads/master/Xoura
+if GG.KEY == "TheDevsIsPro" then
+    print("Key is correct! Proceeding...")
+    -- Insert the rest of your code here
 else
-    -- If the key is incorrect, kick the user and print the message
     print("Key is wrong! Stopping execution...")
-    -- Simulating a kick function
-    game.Players.LocalPlayer:Kick("Stop trying to Phish LOADSTRING")  -- Kicks the player with the message
-end.
+    -- Insert code for incorrect key handling here
+end
